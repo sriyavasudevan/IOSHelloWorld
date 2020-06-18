@@ -26,7 +26,7 @@ class ViewController: UIViewController {
                 let alertController = UIAlertController(title: "Meaning of emoji", message: meaning, preferredStyle: UIAlertController.Style.alert)
                 alertController.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
                 present(alertController, animated: true, completion: nil)
-            }
+            } 
         }
     }
 
